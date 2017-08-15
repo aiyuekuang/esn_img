@@ -23,12 +23,12 @@
 **图文解释一波**
     ![一个图片解释全部](https://github.com/aiyuekuang/esn_img/blob/master/src/images/jieshi.png?raw=true "一个图片解释全部")
     
-    tit：就是图片标题得数组
-    pic：就是图片得数组
-    describe：就是描述的数组
-    close：就是你点击上面得关闭需要实现得关闭函数，需要自己实现，不然你怎么关闭这个插件呢
-    left_done：点击左边得如果到了第一张就会触发
-    right_done：点击右边得，到了最后一张就会触发
+    tit：就是图片标题得数组  类型：array
+    pic：就是图片得数组    类型：array
+    describe：就是描述的数组    类型：array
+    close：就是你点击上面得关闭需要实现得关闭函数，需要自己实现，不然你怎么关闭这个插件呢    类型：function
+    left_done：点击左边得如果到了第一张就会触发    类型：function
+    right_done：点击右边得，到了最后一张就会触发    类型：function
     
 # 希望
 能用得上得小伙伴，欢迎issues，把遇到得需求和问题反馈给我，我将继续改进这个插件，让他更加方便，实用
