@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aiyuekuang/ztao_npm_demo.git"
+    "url": "git+https://github.com/aiyuekuang/esn_img.git"
   },
   "keywords": [
     "ztao"
@@ -27,9 +27,9 @@
   "author": "ztao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aiyuekuang/ztao_npm_demo/issues"
+    "url": "https://github.com/aiyuekuang/esn_img.git/issues"
   },
-  "homepage": "https://github.com/aiyuekuang/ztao_npm_demo#readme",
+  "homepage": "https://github.com/aiyuekuang/esn_img.git#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-core": "^6.21.0",
