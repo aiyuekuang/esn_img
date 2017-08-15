@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle ztao_caiqie@1.0.6~prebuild: ztao_caiqie@1.0.6
+6 silly lifecycle ztao_caiqie@1.0.6~prebuild: no script for prebuild, continuing
+7 info lifecycle ztao_caiqie@1.0.6~build: ztao_caiqie@1.0.6
+8 verbose lifecycle ztao_caiqie@1.0.6~build: unsafe-perm in lifecycle true
+9 verbose lifecycle ztao_caiqie@1.0.6~build: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\react\zujian\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\Users\zengtao\AppData\Local\Programs\Git\bin;C:\Users\zengtao\AppData\Local\Programs\Git\mingw64\libexec;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\play-1.2.5;C:\Program Files\TortoiseSVN\bin;C:\Users\zengtao\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\zengtao\AppData\Local\Programs\Python\Python36-32\;C:\Ruby22-x64\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\zengtao\AppData\Local\.meteor\;C:\Users\zengtao\AppData\Local\Microsoft\WindowsApps;C:\Users\zengtao\AppData\Roaming\npm;C:\Users\zengtao\AppData\Local\atom\bin;D:\eclipes\sdk\tools
+10 verbose lifecycle ztao_caiqie@1.0.6~build: CWD: D:\react\zujian
+11 silly lifecycle ztao_caiqie@1.0.6~build: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack --progress --colors --watch --config webpack.config.js' ]
+12 silly lifecycle ztao_caiqie@1.0.6~build: Returned: code: 1073807364  signal: null
+13 info lifecycle ztao_caiqie@1.0.6~build: Failed to exec build script
+14 verbose stack Error: ztao_caiqie@1.0.6 build: `webpack --progress --colors --watch --config webpack.config.js`
+14 verbose stack Exit status 1073807364
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid ztao_caiqie@1.0.6
+16 verbose cwd D:\react\zujian
+17 error Windows_NT 10.0.14393
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+19 error node v6.9.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error ztao_caiqie@1.0.6 build: `webpack --progress --colors --watch --config webpack.config.js`
+22 error Exit status 1073807364
+23 error Failed at the ztao_caiqie@1.0.6 build script 'webpack --progress --colors --watch --config webpack.config.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the ztao_caiqie package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack --progress --colors --watch --config webpack.config.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs ztao_caiqie
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls ztao_caiqie
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

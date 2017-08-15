@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import "rest";
+@import "xiangmude";
+@import "tubiao";
+@import "hover/hover";
+
+body {
+  background-color: #f5f7f9;
+  color: #6c6c6c;
+  font: 300 1em/1.5em;
+}
+
+.ztao_tupian {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.9;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  img {
+    cursor: grab;
+    position: fixed;
+    user-select: none;
+  }
+}
+
+.ztao_tupian_l {
+  width: 3%;
+  padding: 2% 0;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  top: 48%;
+  left: 0;
+  background: #999999;
+  z-index: 3;
+  border-radius:0 4px 4px 0;
+  @extend .hvr-bounce-to-left;
+}
+
+.ztao_tupian_r {
+  width: 3%;
+  padding: 2% 0;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  top: 48%;
+  background: #999999;
+  z-index: 3;
+  border-radius:4px 0 0 4px ;
+  @extend .hvr-bounce-to-right;
+  left: auto;
+  right: 0;
+}
+
+.ztao_tupian_head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include hp();
+  background: #000;
+  color: #fff;
+  opacity: 0.7;
+  z-index: 3;
+  > div {
+    padding: 10px 20px;
+  }
+}
+
+.ztao_tupian_head_l {
+  font-size: 12px;
+}
+
+.ztao_tupian_head_r {
+  cursor: pointer;
+  @extend .hvr-bounce-in;
+}
+.ztao_tupian_miaoshu{
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  background: #000;
+  color: #fff;
+  opacity: 0.7;
+  z-index: 3;
+  padding: 20px;
+  text-align: left;
+  border-radius: 4px 4px 0 0;
+}
+.ztao_tupian_head_m{
+  text-align: center;
+}

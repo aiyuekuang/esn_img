@@ -1,0 +1,114 @@
+
+$lanse: #008adf;
+$chengse: #ef8d47;
+$huise: #e7e7e7;
+$huizi: #666666;
+$xiaohuizi: #999999;
+$kuan: 1100px;
+$biankuang: 1px solid $huise;
+$biankuang_lan: 2px solid $lanse;
+$landan:#7ac7ef;
+$dlhui:#f5f5f5;
+$hongse:#ff0000;
+$sjhuidi:#f2f2f2;
+$yi_lv:#49b953;
+$yi_cheng:#ffb417;
+$heise:#373e40;
+
+$lushuibg:#f8f8f8;
+
+$biaotizi:17px;
+
+
+
+a{
+  text-decoration:none ;
+}
+.hongzi{
+  color: $hongse!important;
+}
+.lvzi{
+  color: $yi_lv!important;
+}
+i{
+  margin-right: 4px;
+}
+.mal5{
+  margin-left: 5px;
+}
+.mab5{
+  margin-bottom:5px;
+}
+.mat5{
+  margin-top:5px;
+}
+.mat10{
+  margin-top:10px;
+}
+.mal10{
+  margin-left: 10px;
+}
+
+.ztao{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  min-width: 1024px;
+}
+.lanzi{
+  color: $lanse;
+  cursor: pointer;
+}
+
+.zi12{
+  font-size: 12px;
+}
+
+.btn_lanse {
+  @include btn($lanse, #fff);
+}
+.btn_lanbian{
+  border: $yi_lv 1px solid;
+  color: $yi_lv;
+  text-align: center;
+  overflow: hidden;
+  &:hover {
+    border: darken($yi_lv, 10%) 1px solid;
+  }
+}
+
+
+.btn_huibian {
+  color: #000;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  border: $biankuang;
+  a {
+    height: 100%;
+    width: 100%;
+    color: #000;
+    display: block;
+  }
+  &:hover {
+    background: darken($huise, 1%);
+  }
+  background: linear-gradient(#fff, $huise);
+}
+
+.btn_chengse {
+  @include btn($chengse, #fff);
+}
+.btn_hongse{
+  @include btn($hongse, #fff);
+}
+
+.btn_lvse{
+  @include btn($yi_lv, #fff);
+}
+.btn_huise{
+  @include btn($huise, #fff);
+}
+.btn_chengse_yi{
+  @include btn($yi_cheng, #fff);
+}
