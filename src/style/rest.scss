@@ -24,18 +24,6 @@
   display: flex;
   align-items: $al;
   justify-content: $ju;
-  font-size: 0\0;
-  >div{
-    display: inline-block\0;
-    font-size: 14px\0;
-    @if $al == flex-end{
-      vertical-align: bottom\0;
-    }@else if $al == flex-start{
-      vertical-align: top\0;
-    }@else {
-      vertical-align: middle\0;
-    }
-  }
 }
 
 %chaochu {

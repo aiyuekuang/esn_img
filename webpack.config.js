@@ -6,7 +6,7 @@ module.exports = {
     entry: ['./entry/index.js'],
     output: {
         publicPath: 'http://localhost:3012/dist/',
-        path: __dirname + '/lib/dist/',
+        path: __dirname + '/dist/',
         filename: 'bundle.js'
     },
     plugins: [
