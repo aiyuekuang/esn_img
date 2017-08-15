@@ -8,7 +8,7 @@
 # 引入  
 
     import Esn_img from 'esn_img'  //这个是js文件
-    import 'esn_img/dist/styles.css' //这个是css文件，都要引入哦
+    import 'esn_img/dist/styles.css' //这个是css文件，都要引入哦，如果css引入有问题，你可以isuess或者百度寻找答案，实在没招得话，你也可以把这个css复制出来放到你得src里直接调用
 ![一个直接得例子](https://github.com/aiyuekuang/esn_img/blob/master/src/images/lizi.png?raw=true "一个直接得例子")
 
 # 配置使用  
